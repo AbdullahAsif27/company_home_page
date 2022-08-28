@@ -1,11 +1,76 @@
+<!-- Author: Abdullah Asif
+Purpose: To create a website for the company called: AA solutions 
+Date: 26th August 2022-->
+
 <!DOCTYPE html>
 
 <html>
   <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <title>AA Solutions</title>
   </head>
-
   <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          <span class="title">Abdullah Asif Solutions</span>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#enquires">Enquires</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="banner">
+      <img src="https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg"> 
+    </section>
+
+    <section id="aboutus">
+      <h2>About Us</h2>
+      <p class="description">Abdullah Asif Solutions is a Professional Technology Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of Technology, with a focus on dependability and Technology services. We're working to turn our passion for Technology into a booming online website. We hope you enjoy our Technology as much as we enjoy offering them to you.
+
+        I will keep posting more important posts on my Website for all of you. Please give your support and love.</p>
+
+    </section>
+
+    <section id="portfolio">
+      <h2 class="title-portfolio">Portfolio</h2>
+      <section class="info">
+      <div class="box">
+        <h3>Webite Design</h3>
+        <p>Website creation tailored to client needs</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHpZDTuxp2nBU3OhJuJG2fs1geAnOAS0JxA&usqp=CAU" alt="picture of a website" class="image">
+      </div>
+      <div class="box">
+        <h3>Mobile Apps</h3>
+        <p>Apps created based on a clients requirements</p>
+        <img src="https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/zymr8_steps_the_mobile_app_dev_lifecycle_cover.jpg" alt="picture of a phone with an app " class="image">
+      </div>
+      <div class="box">
+        <h3>Game development</h3>
+        <p>Our developers can bring your ideas to life with our game development solution</p>
+        <img src="https://blog.instabug.com/wp-content/uploads/2021/01/b_Must-Have-Mobile-Game-Development-Tools-.png" alt="picture of a laptop with a controller " class="image">
+      </div>
+      </section>
+    </section>
+
+    <section id="enquires">
+      <h2 class="title-enquires">Enquires</h2>
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="description">Description</label>
+        <textarea name="description" id="description"></textarea>
+        <input type="submit" id="submit">
+
+      </form>
+    </section>
+    <footer>
+      <h3 class="footer-text">ⓒAA Solutions</h3>
+    </footer>
     
   </body>
 </html>

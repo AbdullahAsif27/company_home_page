@@ -1,0 +1,157 @@
+/* Author: Abdullah Asif
+Date: 26th August 2022
+Purpose: style the companies website */
+
+
+html{
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin-left: -1.5rem;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding-right: 46rem;
+    cursor: default;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.nav a{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    border-bottom: solid 0.25rem red;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+#aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.title-portfolio,.title-enquires{
+    text-align: center;
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.box{
+    border: solid 0.5rem black;
+    min-width: 28rem;
+    min-height: 25rem;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
+h3,p{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fname,#lname,#description{
+    width: 40%;
+}
+footer{
+    display: flex;
+}
+
+.footer-text{
+    color: black;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+#submit{
+    margin-top: 0.5rem;
+}
+
+
+
+@media only screen and (max-width: 1100px) and (min-width: 751px)
+{
+    nav{
+        margin-right: 5%;
+
+    }
+
+    .title{
+        padding-right: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav{
+        margin-right: 0%; 
+    }
+
+    .title{
+
+        padding-right: 0%;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+  
+}
